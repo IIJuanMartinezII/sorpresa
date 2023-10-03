@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página web para mi novia</title>
+
+    <link rel="stylesheet" href="./Estilos/margin.css">
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <p>Querida Adriana 🌻🦋</p>
+        <p>Hoy me siento lleno de emoción al escribirte esta carta virtual, ya que estamos celebrando tres años y siete meses de
+            amor. Cada día a tu lado ha sido un regalo. ❤️</p>
+        <p>Desde que entraste en mi vida, todo ha cambiado para mejor. Sé que ha habido momentos difíciles en nuestra
+            relación, pero a pesar de todo, hemos salido adelante. Tu amor y tu presencia han iluminado cada rincón de
+            mi mundo, aunque cabe destacar que tú eres mi mundo y no puedo evitar sonreír al pensar en todos los
+            momentos maravillosos que hemos compartido juntos. Tantos recuerdos hermosos, tantas aventuras, y aún más
+            por descubrir. 🙈</p>
+        <p>En estos tres años y siete meses, hemos construido un vínculo especial que me hace sentir agradecido todos
+            los días. Cada risa, cada abrazo, cada palabra de aliento han sido los ladrillos con los que hemos
+            construido nuestro amor. Me siento afortunado de tenerte a mi lado como mi compañera, mi mejor amiga, mi
+            confidente y mi amor.😍</p>
+        <p>Quiero agradecerte por tu paciencia, tu comprensión, tu apoyo incondicional y por amarme tal como soy. Eres
+            la persona con la que quiero compartir mi vida, mis sueños y mis planes futuros. Sé que juntos podemos
+            enfrentar cualquier desafío que la vida nos presente y superarlo con amor y unidad.🧑🏻‍❤️‍💋‍👩🏻💕</p>
+        <p>A medida que celebramos este hermoso día en nuestra relación, quiero que sepas cuánto te amo y cuánto valoro
+            todo lo que somos juntos. Estoy emocionado por todo lo que el futuro nos tiene reservado y por los nuevos
+            recuerdos que crearemos juntos sin olvidar los recuerdos que nos han hecho llegar hasta aquí. 🍃</p>
+        <p>Felices tres años y siete meses, mi amor, y por todos los años que aún nos quedan por vivir juntos. Eres mi
+            razón de ser, mi alegría y mi amor eterno.🧑🏻‍🤝‍👩🏻💝</p>
+        <p>Con todo mi amor,</p>
+        <p>Juan 🥹</p>
+        <p></p>
+        <p>Fotito Juntos 😻🥹</p>
+        <img src="C:/Users/alvar/Documents/Pagina Dedicada/Imagenes/juntos.jpeg" alt="Foto de nosotros juntos"
+            width="200" height="200">
+        <p>🌻 ¿Cuántos girasoles quieres? 🌻</p>
+        <p>(Espero te guste)</p>
+        <input type="number" id="girasoles" />
+        <p></p>
+        <button type="button" onclick="generarGirasoles()">Enviar</button>
+    </div>
+    <div class="girasol"></div>
+
+</body>
+
+<script>
+    function generarGirasoles() {
+        var cantidad = document.getElementById("girasoles").value;
+
+        for (var i = 0; i < cantidad; i++) {
+            var girasol = document.createElement("img");
+            girasol.src = "C:/Users/alvar/Documents/Pagina Dedicada/Imagenes/Girasol.jpeg";
+            girasol.style.width = "200px";
+            girasol.style.height = "200px";
+
+            // Agregamos el girasol al div
+            document.querySelector(".girasol").appendChild(girasol);
+        }
+    }
+</script>
+
+</html>
