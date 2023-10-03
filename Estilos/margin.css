@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9cf1f1;
+  }
+  
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(239, 239, 167);
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .contenedor img {
+    width: 350px;
+    height: 400px;
+  }
+  
+  .contenedor p {
+    font-family: "Calligraphy";
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: black;
+  }
+
+  .girasol {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en columnas */
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(239, 239, 167);
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 0px;
+    align-items: center;
+  }
+  
+  .girasol img {
+    width: 200px;
+    height: 200px; /* Ajusta el tamaño de las imágenes */
+    margin: 10px; /* Espacio entre las imágenes */
+  }
+  
